@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     pug = require('gulp-pug'),
+    babel = require('gulp-babel'),
     browserSync = require('browser-sync').create();
 
 
@@ -14,8 +15,8 @@ var path = {
         dest: './public/css'
     },
     js: {
-        src: './src/js/*.js',
-        dest: './public/js'
+        src: './src/js/**/*.js',
+        dest: './public/scripts'
     },
     pug: {
         src: ["./src/templates/**/*.pug",
@@ -39,9 +40,13 @@ gulp.task('browserSync', function () {
 });
 
 
-gulp.task('bootStrap', function () {
-    return (gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/bootstrap/dist/css/bootstrap.min.css'])
-        .pipe(gulp.dest('./public/bootstrap'))
+gulp.task('frameworks', function () {
+    return (gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js',
+        'node_modules/bootstrap/dist/css/bootstrap.min.css',
+        'node_modules/angular/angular.min.js',
+        'node_modules/angular-route/angular-route.min.js',
+        './src/frameworks/**/**/*.*'])
+        .pipe(gulp.dest('./public/frameworks'))
     )
 })
 
@@ -64,6 +69,7 @@ function styles() {
 function js() {
     return (
         gulp.src(path.js.src)
+        .pipe(babel({ presets: ['env'] }))
         .pipe(gulp.dest(path.js.dest))
     )
 }
@@ -101,5 +107,5 @@ exports.watch = watch;
 
 // default
 
-var build = gulp.series(gulp.parallel(watch, 'bootStrap', 'browserSync'));
+var build = gulp.series(gulp.parallel(watch, images, 'frameworks', 'browserSync'));
 gulp.task('default', build);

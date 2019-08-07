@@ -1,6 +1,322 @@
 extends _layout/_layout
 block variables
-	- var title = 'Lab 6'
+	- var title = 'Home'
 
 block body
-	div jaja
+	//- <!--================Home Banner Area =================-->
+	section.home_banner_area
+		.container
+			.row
+				.col-lg-5
+				.col-lg-7
+					.blog_text_slider.owl-carousel
+						.item
+							.blog_text
+								.cat
+									a.cat_btn(href='#') Gadgets
+									a(href='#')
+										i.fa.fa-calendar(aria-hidden='true')
+										|  March 14, 2018
+									a(href='#')
+										i.fa.fa-comments-o(aria-hidden='true')
+										|  05
+								a(href='#')
+									h4 Nest Protect: 2nd Gen Smoke + CO Alarm
+								p
+									| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								a.blog_btn(href='#') Read More
+						.item
+							.blog_text
+								.cat
+									a.cat_btn(href='#') Gadgets
+									a(href='#')
+										i.fa.fa-calendar(aria-hidden='true')
+										|  March 14, 2018
+									a(href='#')
+										i.fa.fa-comments-o(aria-hidden='true')
+										|  05
+								a(href='#')
+									h4 Nest Protect: 2nd Gen Smoke + CO Alarm
+								p
+									| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								a.blog_btn(href='#') Read More
+						.item
+							.blog_text
+								.cat
+									a.cat_btn(href='#') Gadgets
+									a(href='#')
+										i.fa.fa-calendar(aria-hidden='true')
+										|  March 14, 2018
+									a(href='#')
+										i.fa.fa-comments-o(aria-hidden='true')
+										|  05
+								a(href='#')
+									h4 Nest Protect: 2nd Gen Smoke + CO Alarm
+								p
+									| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								a.blog_btn(href='#') Read More
+	//- <!--================End Home Banner Area =================-->
+	section.blog_area.p_120
+		.container
+			.row
+				.col-lg-8
+					.blog_left_sidebar
+						article.blog_style1
+							.blog_img
+								img.img-fluid(src='images/home-blog/blog-1.jpg', alt='')
+							.blog_text
+								.blog_text_inner
+									.cat
+										a.cat_btn(href='#') Gadgets
+										a(href='#')
+											i.fa.fa-calendar(aria-hidden='true')
+											|  March 14, 2018
+										a(href='#')
+											i.fa.fa-comments-o(aria-hidden='true')
+											|  05
+									a(href='#')
+										h4 Nest Protect: 2nd Gen Smoke + CO Alarm
+									p
+										| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+										| labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+										| nisi ut aliquip.
+									a.blog_btn(href='#') Read More
+						.row
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-1.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-2.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+						article.blog_style1
+							.blog_img
+								img.img-fluid(src='images/home-blog/blog-2.jpg', alt='')
+							.blog_text
+								.blog_text_inner
+									.cat
+										a.cat_btn(href='#') Gadgets
+										a(href='#')
+											i.fa.fa-calendar(aria-hidden='true')
+											|  March 14, 2018
+										a(href='#')
+											i.fa.fa-comments-o(aria-hidden='true')
+											|  05
+									a(href='single-blog.html')
+										h4 Nest Protect: 2nd Gen Smoke CO Alarm
+									p
+										| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+										| labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+										| nisi ut aliquip.
+									a.blog_btn(href='#') Read More
+						.row
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-3.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-4.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+						.row
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-5.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+							.col-md-6
+								article.blog_style1.small
+									.blog_img
+										img.img-fluid(src='images/home-blog/blog-small-6.jpg', alt='')
+									.blog_text
+										.blog_text_inner
+											.cat
+												a.cat_btn(href='#') Gadgets
+												a(href='#')
+													i.fa.fa-calendar(aria-hidden='true')
+													|  March 14, 2018
+												a(href='#')
+													i.fa.fa-comments-o(aria-hidden='true')
+													|  05
+											a(href='single-blog.html')
+												h4 Nest Protect 2nd Gen Smoke CO Alarm
+											p
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut
+												| labore et dolore magna aliqua.
+											a.blog_btn(href='#') Read More
+						nav.blog-pagination.justify-content-center.d-flex
+							ul.pagination
+								li.page-item
+									a.page-link(href='#', aria-label='Previous')
+										span(aria-hidden='true')
+											span.lnr.lnr-chevron-left
+								li.page-item.active
+									a.page-link(href='#') 01
+								li.page-item
+									a.page-link(href='#') 02
+								li.page-item
+									a.page-link(href='#') 03
+								li.page-item
+									a.page-link(href='#') 04
+								li.page-item
+									a.page-link(href='#') 09
+								li.page-item
+									a.page-link(href='#', aria-label='Next')
+										span(aria-hidden='true')
+											span.lnr.lnr-chevron-right
+				.col-lg-4
+					.blog_right_sidebar
+						aside.single_sidebar_widget.search_widget
+							.input-group
+								input.form-control(type='text', placeholder='Search Posts')
+								span.input-group-btn
+									button.btn.btn-default(type='button')
+										i.lnr.lnr-magnifier
+							//- // /input-group
+							.br
+						aside.single_sidebar_widget.popular_post_widget
+							h3.widget_title Popular Posts
+							.media.post_item
+								img(src='images/blog/popular-post/post1.jpg', alt='post')
+								.media-body
+									a(href='blog-details.html')
+										h3 Space The Final Frontier
+									p 02 Hours ago
+							.media.post_item
+								img(src='images/blog/popular-post/post2.jpg', alt='post')
+								.media-body
+									a(href='blog-details.html')
+										h3 The Amazing Hubble
+									p 02 Hours ago
+							.media.post_item
+								img(src='images/blog/popular-post/post3.jpg', alt='post')
+								.media-body
+									a(href='blog-details.html')
+										h3 Astronomy Or Astrology
+									p 03 Hours ago
+							.media.post_item
+								img(src='images/blog/popular-post/post4.jpg', alt='post')
+								.media-body
+									a(href='blog-details.html')
+										h3 Asteroids telescope
+									p 01 Hours ago
+							.br
+						aside.single-sidebar-widget.newsletter_widget
+							h4.widget_title Newsletter
+							.form-group.d-flex.flex-row
+								.input-group
+									input#inlineFormInputGroup.form-control(type='text', placeholder='Enter email', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter email'")
+								a.bbtns(href='#')
+									i.lnr.lnr-arrow-right
+							.br
+						aside.single_sidebar_widget.post_category_widget
+							h4.widget_title Post Catgories
+							ul.list.cat-list
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Technology
+										p 37
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Lifestyle
+										p 24
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Fashion
+										p 59
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Art
+										p 29
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Food
+										p 15
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Architecture
+										p 09
+								li
+									a.d-flex.justify-content-between(href='#')
+										p Adventure
+										p 44

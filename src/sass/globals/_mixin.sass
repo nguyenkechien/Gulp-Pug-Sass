@@ -1,0 +1,20 @@
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s) 
+  transition: $property $duration $animate $delay
+
+
+// Placeholder Mixins
+
+@mixin placeholder 
+  &.placeholder 
+    @content
+  
+  &:-moz-placeholder 
+    @content
+  
+  &::-moz-placeholder 
+    @content
+  
+  &::-webkit-input-placeholder 
+    @content
+  
