@@ -1,0 +1,36 @@
+{
+  "name": "gulp-sass-by-kys",
+  "version": "1.0.0",
+  "description": "Source Build landing page by KyS v1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenkechien/Gulp-Pug-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenkechien/Gulp-Pug-Sass/issues"
+  },
+  "homepage": "https://github.com/nguyenkechien/Gulp-Pug-Sass#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.3.1",
+    "gulp-pug": "^4.0.1",
+    "postcss-cli": "^6.1.3",
+    "pug": "^2.0.4"
+  }
+}

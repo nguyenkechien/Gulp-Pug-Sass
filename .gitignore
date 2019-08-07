@@ -1,2 +1,5 @@
-.sass-cache/
-*.css.map
+/node_modules/
+/.git/
+/**/*.psd
+/**/Thumbs.db
+/**/*.DS_Store
