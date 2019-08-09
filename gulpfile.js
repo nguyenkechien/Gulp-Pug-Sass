@@ -69,7 +69,7 @@ function styles() {
 function js() {
     return (
         gulp.src(path.js.src)
-        .pipe(babel({ presets: ['env'] }))
+        // .pipe(babel({ presets: ['env'] }))
         .pipe(gulp.dest(path.js.dest))
     )
 }

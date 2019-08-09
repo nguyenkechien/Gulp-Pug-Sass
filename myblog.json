@@ -1,0 +1,152 @@
+[
+  {
+    "type": "database",
+    "name": "myblog"
+  },
+  {
+    "type": "table",
+    "name": "category",
+    "database": "myblog",
+    "data": [{
+        "id_cate": "5",
+        "name_cate": "Travel"
+      },
+      {
+        "id_cate": "6",
+        "name_cate": "Business"
+      },
+      {
+        "id_cate": "7",
+        "name_cate": "Technology"
+      },
+      {
+        "id_cate": "8",
+        "name_cate": "Confide"
+      },
+      {
+        "id_cate": "10",
+        "name_cate": "Introduction"
+      },
+      {
+        "id_cate": "11",
+        "name_cate": "Love"
+      },
+      {
+        "id_cate": "13",
+        "name_cate": "Sport"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "comment",
+    "database": "myblog",
+    "data": [
+
+    ]
+  },
+  {
+    "type": "table",
+    "name": "post",
+    "database": "myblog",
+    "data": [{
+        "id_post": "1",
+        "title_post": "Có đôi khi tình yêu dẫn ta lạc đường...",
+        "describe": "<p>Y&ecirc;u nhau l&agrave; c&ugrave;ng nhau y&ecirc;u, c&ugrave;ng nhau đi, c&ugrave;ng nhau đến một điểm đ&iacute;ch. Kh&ocirc;ng phải l&agrave; một đ&aacute;m cưới m&agrave; l&agrave; đến cuối cuộc t&igrave;nh.",
+        "content_post": "<p>Y&ecirc;u nhau l&agrave; c&ugrave;ng nhau y&ecirc;u, c&ugrave;ng nhau đi, c&ugrave;ng nhau đến một điểm đ&iacute;ch. Kh&ocirc;ng phải l&agrave; một đ&aacute;m cưới m&agrave; l&agrave; đến cuối cuộc t&igrave;nh. T&igrave;nh y&ecirc;u l&agrave; một h&agrave;nh tr&igrave;nh. Đến khi một trong hai bu&ocirc;ng tay nhau ra. Đ&aacute;m cưới chỉ l&agrave; một cột mốc m&agrave; đương nhi&ecirc;n, h&agrave;nh tr&igrave;nh của t&igrave;nh y&ecirc;u mong vượt qua cột mốc đ&oacute;.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/ty.png\" style=\"border-style:solid; border-width:0px; height:302px; width:466px\" \/><\/p>\r\n\r\n<p>Trong inbox t&ocirc;i thi thoảng vẫn nhận được những d&ograve;ng t&acirc;m sự. Về những năm th&aacute;ng đắm say khiến nhiều c&ocirc; g&aacute;i kh&ocirc;ng c&ograve;n l&agrave; m&igrave;nh nữa. Đắm say ấy, ngọt ng&agrave;o ấy khiến người ta mất tỉnh t&aacute;o. M&ecirc; đi theo tr&aacute;i tim dẫn lối. M&agrave; tr&aacute;i tim th&igrave; đ&acirc;u c&oacute; mắt. N&ecirc;n lạc cả ch&iacute;nh m&igrave;nh khi n&agrave;o kh&ocirc;ng hay. C&oacute; khi lạc may v&agrave;o con đường tốt. Cũng lắm l&uacute;c lạc rủi v&agrave;o con đường xấu.<\/p>\r\n\r\n<p>Lạc may như người ta gọi l&agrave; t&igrave;nh y&ecirc;u gi&uacute;p ta ho&agrave;n thiện bản th&acirc;n. Đấy l&agrave; khi hai con người ấy ảnh hưởng nhau một c&aacute;ch t&iacute;ch cực. C&agrave;ng y&ecirc;u nhau, họ c&agrave;ng rạng ngời hạnh ph&uacute;c. Họ thay đổi bản th&acirc;n m&igrave;nh để ph&ugrave; hợp với nhau v&agrave; c&ugrave;ng d&igrave;u nhau trong c&ugrave;ng một tầng bay- c&ugrave;ng một hướng bay. Họ kh&aacute;m ph&aacute; ra điểm yếu điểm mạnh của đối phương để dựa cậy v&agrave;o đấy m&agrave; lớn l&ecirc;n c&ugrave;ng t&igrave;nh y&ecirc;u ấy. Ch&uacute;ng ta y&ecirc;u nhau l&agrave; để c&ugrave;ng viết l&ecirc;n c&acirc;u chuyện cổ t&iacute;ch của ri&ecirc;ng m&igrave;nh l&agrave; thế.<\/p>\r\n\r\n<p>Lạc rủi, buồn thay, giống hệt Lạc may. Nhưng ở chiều ngược lại (m&agrave; c&oacute; khi phải đi đến gần cuối đường mới biết rằng m&igrave;nh đang đi ngược). L&agrave; khi người ta nh&acirc;n danh y&ecirc;u thương để &eacute;p nhau phải thay đổi.<\/p>\r\n\r\n<p>Người ta mặc cả nhau: Nếu em y&ecirc;u anh, em phải&hellip; Người ta cũng ra gi&aacute; với nhau kiểu: Muốn t&igrave;nh y&ecirc;u bền vững l&acirc;u d&agrave;i th&igrave; em phải&hellip;.. C&oacute; khi kh&ocirc;ng phải từ y&ecirc;u cầu của đối phương m&agrave; lại l&agrave; sự tự g&ograve; &eacute;p, lầm tưởng của ch&iacute;nh bản th&acirc;n. Rằng m&igrave;nh y&ecirc;u anh ấy n&ecirc;n m&igrave;nh sẽ phải&hellip; Rằng m&igrave;nh phải thế n&agrave;y anh ấy mới vui&hellip; Rằng anh ấy kh&ocirc;ng th&iacute;ch m&igrave;nh l&agrave;m thế n&agrave;y đ&acirc;u, m&igrave;nh phải l&agrave;m thế kia cơ&hellip;C&agrave;ng y&ecirc;u nhau, họ c&agrave;ng gọt giũa bản th&acirc;n để vừa mắt đối phương, vừa l&ograve;ng đối phương. L&agrave; gọt ch&acirc;n cho vừa gi&agrave;y vậy. Đớn đau kh&ocirc;ng kể xiết. Nhưng đang đắm say m&agrave;, hạnh ph&uacute;c như liều thuốc g&acirc;y t&ecirc;. Chỉ l&agrave; khi hết thuốc t&ecirc; th&igrave; mới đau đớn đến nhường n&agrave;o. Lạc rủi, rủi thay, lại nhiều người lạc.<\/p>\r\n\r\n<p>Nhưng cũng c&oacute; khi, người ta lạc may kh&ocirc;ng ra may, rủi chẳng ra rủi. Người ta lạc bởi những &ecirc;m đềm. Bị ru ngủ bởi hạnh ph&uacute;c trước mắt. Bảo sao đường cao tốc người ta hay phải tạo ra những đoạn gờ giảm tốc v&agrave; phải uốn &eacute;o thay v&igrave; thẳng đuột.<\/p>\r\n\r\n<p>Bởi người ta sợ t&agrave;i xế sẽ ngủ gật mất. Thế n&ecirc;n nếu một t&igrave;nh y&ecirc;u cứ m&atilde;i &ecirc;m dịu, cứ đi miết đi miết người ta sẽ ngủ qu&ecirc;n mất. Rồi lạc l&uacute;c n&agrave;o chẳng hay. N&ecirc;n c&oacute; người đến 50-60 tuổi bỗng thấy ch&aacute;n ngấy cuộc h&ocirc;n nh&acirc;n của m&igrave;nh m&agrave; lạc đi đ&acirc;u đ&oacute;. Đừng tr&aacute;ch cứ người ấy rằng gi&agrave; rồi c&ograve;n hư th&acirc;n. Bởi t&igrave;nh y&ecirc;u th&igrave; kh&ocirc;ng c&oacute; tuổi kia m&agrave;???<\/p>\r\n\r\n<p>L&agrave; khi mỗi người đều giữ những b&iacute; mật, khoảng trời ri&ecirc;ng m&agrave; vợ họ, chồng họ chả bước được v&agrave;o!<\/p>\r\n\r\n<p>Lạc. Người ta thường bị lạc v&igrave; kh&ocirc;ng c&oacute; đ&iacute;ch đến, kh&ocirc;ng biết đ&iacute;ch m&igrave;nh cần đến l&agrave; đ&acirc;u. Cứ chỉ cắm đầu v&agrave;o y&ecirc;u nhau rồi mai sau c&oacute; ra sao cũng chả sao. Đ&iacute;ch đến của t&igrave;nh y&ecirc;u n&agrave;o phải h&ocirc;n nh&acirc;n? Bởi nếu đ&iacute;ch đến l&agrave; h&ocirc;n nh&acirc;n chẳng ho&aacute; ra cưới xong l&agrave; hết y&ecirc;u? Đ&iacute;ch đến cũng n&agrave;o phải đ&acirc;u l&agrave; tận c&ugrave;ng c&aacute;i chết v&igrave; n&oacute;i y&ecirc;u nhau đến chết vốn chỉ l&agrave; một h&atilde;o huyền mơ mộng. Vậy đ&iacute;ch đến thực sự l&agrave; đ&acirc;u? Kh&ocirc;ng t&igrave;m ra đ&iacute;ch đến thảo n&agrave;o ta vẫn cứ đi lạc v&ocirc; định đ&oacute; th&ocirc;i.<\/p>\r\n\r\n<p>Để kh&ocirc;ng lạc mất nhau th&igrave; phải c&ugrave;ng nhau. Phải nắm tay nhau cả trong t&acirc;m tưởng. Tức l&agrave; phải tin nhau. C&oacute; y&ecirc;u mới c&oacute; tin v&agrave; c&oacute; tin mới c&oacute; y&ecirc;u. N&oacute; phải c&ugrave;ng l&uacute;c v&agrave; tuần ho&agrave;n. Y&ecirc;u n&ecirc;n tin. Tin n&ecirc;n (c&agrave;ng) y&ecirc;u. (C&agrave;ng) y&ecirc;u n&ecirc;n (c&agrave;ng) tin. Li&ecirc;n mi&ecirc;n bất tận.<\/p>\r\n\r\n<p>L&agrave; em ứng trước l&ograve;ng tin v&agrave; anh ch&agrave;ng em y&ecirc;u cũng đặt cược l&ograve;ng tin. L&agrave; em thay v&igrave; trở th&agrave;nh c&ocirc; g&aacute;i đ&aacute;ng y&ecirc;u trong mắt anh ấy h&atilde;y trở th&agrave;nh c&ocirc; g&aacute;i đ&aacute;ng tin trong cuộc đời anh ấy.<\/p>\r\n\r\n<p>Anh vẫn n&oacute;i với em rằng đ&ocirc;i khi gi&aacute; trị của c&acirc;u &ldquo;Em y&ecirc;u anh&rdquo; c&oacute; trị gi&aacute; thấp hơn nhiều với c&acirc;u &ldquo;Em tin anh&rdquo;. Nu&ocirc;i dưỡng l&ograve;ng tin trong nhau sẽ khiến t&igrave;nh y&ecirc;u đ&oacute; s&acirc;u rễ - rậm t&aacute;n.<\/p>\r\n\r\n<p>Để kh&ocirc;ng lạc mất bản th&acirc;n m&igrave;nh th&igrave; phải tr&acirc;n trọng. Kh&ocirc;ng chỉ đ&ograve;i hỏi đối phương tr&acirc;n trọng m&igrave;nh m&agrave; cả ch&iacute;nh m&igrave;nh phải tr&acirc;n trọng m&igrave;nh. M&agrave; muốn thế, em phải hiểu gi&aacute; trị bản th&acirc;n m&igrave;nh đến đ&acirc;u. Anh vẫn dạy 2 c&ocirc; g&aacute;i nhỏ con anh kh&ocirc;ng phải sống sao vừa mắt đ&agrave;n &ocirc;ng hay trở th&agrave;nh người phụ nữ thế n&agrave;y hay thế nọ. M&agrave; l&agrave; gi&aacute; trị bản th&acirc;n của mỗi c&ocirc; g&aacute;i. L&agrave; phẩm gi&aacute; cũng đ&uacute;ng m&agrave; gọi l&agrave; t&ocirc;n nghi&ecirc;m cũng chẳng sai. Một c&ocirc; g&aacute;i biết v&agrave; hiểu gi&aacute; trị bản th&acirc;n m&igrave;nh đến đ&acirc;u th&igrave; tuyệt đối sẽ kh&ocirc;ng phung ph&iacute; m&igrave;nh cho những g&atilde; trai k&eacute;m chất lượng, kh&ocirc;ng c&ugrave;ng tầng bay hoặc h&agrave;nh xử thiếu tr&acirc;n trọng c&ocirc; ấy. L&agrave; phẩm gi&aacute; của c&ocirc; ấy nằm ở việc người ta buộc phải t&ocirc;n trọng c&ocirc; ấy. L&agrave; t&ocirc;n nghi&ecirc;m của c&ocirc; ấy nằm ở việc c&ocirc; ấy l&agrave; để y&ecirc;u- tr&acirc;n trọng chứ kh&ocirc;ng phải quăng quật hay g&ograve; &eacute;p cho vừa người kh&aacute;c.<\/p>\r\n\r\n<p>Đ&iacute;ch đến của t&igrave;nh y&ecirc;u l&agrave; g&igrave; nếu kh&ocirc;ng phải l&agrave; khiến cả hai hạnh ph&uacute;c? Tận hưởng nhau. Thưởng thức nhau. Đi c&ugrave;ng nhau. Gi&agrave; c&ugrave;ng nhau. Chết th&igrave; th&ocirc;i khỏi đi, đ&oacute; l&agrave; mệnh trời rồi.<\/p>\r\n\r\n<p>Như nhất định c&oacute; những sớm mai tỉnh giấc, bữa s&aacute;ng cho nhau l&agrave; nụ h&ocirc;n ch&agrave;o ng&agrave;y. Như nhất định con đường n&agrave;o em đi rồi cũng đưa em về đ&uacute;ng v&ograve;m ngực ấy, c&aacute;nh tay ấy. Như cả việc ngủ c&ugrave;ng nhau l&agrave; em r&uacute;c v&agrave;o chiếc k&eacute;n an to&agrave;n nhất. Như em được anh ta thưởng thức chứ kh&ocirc;ng phải sử dụng- trưng biển hay g&ograve; h&agrave;n em. Như mỗi thứ thuộc về em kh&ocirc;ng phải l&agrave; trị gi&aacute; bao nhi&ecirc;u tiền m&agrave; l&agrave; sự tự h&agrave;o, thương em, x&oacute;t em nhưng vẫn ủng hộ em, ở b&ecirc;n em, d&otilde;i theo em của một ai đ&oacute; thuộc về em&hellip;.<\/p>\r\n\r\n<p>V&agrave; nhiều nhiều nữa những đ&iacute;ch đến ngắn nữa. Cuộc đời vốn l&agrave; cuộc h&agrave;nh tr&igrave;nh được tạo th&agrave;nh bởi nhiều đ&iacute;ch ngắn m&agrave;, phải kh&ocirc;ng em?<\/p>",
+        "img_post": "blog-small-1.png",
+        "date_post": "2019-06-24",
+        "author": "admin",
+        "view": "19",
+        "id_us": "23",
+        "id_cate": "11"
+      },
+      {
+        "id_post": "2",
+        "title_post": "Người yêu cũ – miền hoang hoải",
+        "describe": "<p>C&oacute; những điều kh&ocirc;ng muốn nhớ, c&oacute; những vết đau kh&ocirc;ng muốn l&agrave;nh, c&oacute; những người kh&ocirc;ng n&ecirc;n nhớ.<\/p>",
+        "content_post": "<p>C&oacute; những điều kh&ocirc;ng muốn nhớ, c&oacute; những vết đau kh&ocirc;ng muốn l&agrave;nh, c&oacute; những người kh&ocirc;ng n&ecirc;n nhớ.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/nguoiduatin-tamsu.jpg\" \/><\/p>\r\n\r\n<p>C&oacute; một nỗi nhớ kh&ocirc;ng t&ecirc;n, c&oacute; một nỗi buồn v&ocirc; cớ, c&oacute; một số điện thoại kh&ocirc;ng muốn nhớ v&agrave; c&oacute; một người kh&ocirc;ng muốn qu&ecirc;n.<\/p>\r\n\r\n<p>Hai tiếng người cũ xa vời m&agrave; gần ngay tầm với, chỉ nhắc đến th&ocirc;i khiến ta c&oacute; cảm gi&aacute;c vừa rời đi từ miền hoang hoải.<\/p>\r\n\r\n<p>C&oacute; những người chia tay v&igrave; duy&ecirc;n phận, c&oacute; những mối t&igrave;nh đứt g&aacute;nh v&igrave; ghen v&agrave; c&oacute; những buổi tiệc t&agrave;n kh&ocirc;ng r&otilde; l&yacute; do. D&ugrave; mu&ocirc;n v&agrave;n lời giải th&iacute;ch th&igrave; kết cục cũng đ&atilde; định rằng ta l&agrave; chuyện đ&atilde; cũ của nhau.<\/p>\r\n\r\n<p>Ai trong đời rồi cũng sẽ trở th&agrave;nh qu&aacute; khứ của ai đ&oacute;, thậm ch&iacute; l&agrave; v&ocirc; hạn lần của qu&aacute; khứ. Tất nhi&ecirc;n, chẳng thể qu&ecirc;n nhưng cũng kh&ocirc;ng thể nhớ về nhau trong nỗi đau dằn vặt bởi ch&iacute; &iacute;t ta cũng từng c&oacute; thời gian đi chung đường, c&ugrave;ng chung một bầu trờ, c&ugrave;ng ngắm nh&igrave;n ho&agrave;ng h&ocirc;n tắt dần tr&ecirc;n c&aacute;nh đồng hoang v&agrave; c&ugrave;ng nắm tay da khẽ chạm da v&agrave;o những đ&ecirc;m trăng trộm.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/1.jpg\" \/><\/p>\r\n\r\n<p>Đ&acirc;u đ&oacute; tr&ecirc;n chuỗi sống n&agrave;y ta đ&atilde; từng b&ecirc;n nhau v&agrave; từng gặp gỡ, suy cho c&ugrave;ng qu&aacute; khứ ấy b&acirc;y giờ cũng chỉ g&oacute;i gọn trong một c&aacute;i t&ecirc;n c&oacute; danh về một người đ&atilde; từng.<\/p>\r\n\r\n<p>Bởi vậy, đừng hết y&ecirc;u người cũ, chỉ l&agrave; đừng y&ecirc;u khi họ đ&atilde; t&igrave;m thấy hạnh ph&uacute;c mới v&agrave; đi con đường mới.<\/p>\r\n\r\n<p>Điều ấy c&oacute; ngốc nghếch kh&ocirc;ng ư? Kh&ocirc;ng ch&uacute;t n&agrave;o? Bởi tại sao cứ phải th&ugrave; gh&eacute;t nhau hay nh&eacute;t t&ecirc;n nhau v&agrave;o miền c&ocirc; độc kh&ocirc;ng b&oacute;ng cảm x&uacute;c th&igrave; mới hả h&ecirc;? Người cũ l&agrave; cảm x&uacute;c cũ, l&agrave; k&yacute; ức cũ đ&aacute;ng lẽ cần được tr&acirc;n trọng, d&ugrave; khong tr&acirc;n trọng t&ecirc;n người cũng đừng gh&eacute;t bỏ cảm x&uacute;c, bởi cảm x&uacute;c &aacute;i t&igrave;nh l&agrave; thứ vĩnh viễn v&ocirc; tội.<\/p>\r\n\r\n<p>N&agrave;y, người y&ecirc;u cũ đ&atilde; dạy ta điều g&igrave; vậy?<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/2.jpg\" \/><\/p>\r\n\r\n<p>Rằng sau chia tay, ngo&agrave;i những nước mắt, ngo&agrave;i những thương tổn ch&uacute;ng ta đều c&oacute; cho ri&ecirc;ng m&igrave;nh một b&agrave;i học trong t&igrave;nh y&ecirc;u.<\/p>\r\n\r\n<p>Rằng trước khi thương người h&atilde;y thương lấy ch&iacute;nh m&igrave;nh, nhưng y&ecirc;u rồi th&igrave; mọi l&yacute; tr&iacute; đều bị đ&aacute;nh gục.<\/p>\r\n\r\n<p>Người y&ecirc;u cũ đ&atilde; dạy ta một b&agrave;i học về sự trưởng th&agrave;nh. Đ&ocirc;i lần c&ocirc; đơn kh&ocirc; khốc cả một qu&atilde;ng k&yacute; ức, nhấn ch&igrave;m trong qu&ecirc;n l&atilde;ng bằng việc lấy niềm vui từ những cuộc chuyện tr&ograve; với bạn b&egrave;, lắng nghe v&agrave; gom nhặt những nỗi buồn của những người xa lạ tin tưởng m&igrave;nh.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/3.jpg\" \/><\/p>\r\n\r\n<p>C&aacute;i c&aacute;ch ta nhớ về người cũ cũng thật hay ho. Gặm nhấm dư vị nỗi đau, nếm một ch&uacute;t ngọt rắc một ch&uacute;t cay, l&agrave; nỗi đau m&agrave; ta kh&ocirc;ng thể chạm tới mỗi lần nhắc nhớ, tựa nắng giữa th&aacute;ng 6 gay gắt hễ chạm v&agrave;o l&agrave; bỏng r&aacute;t cả một v&ugrave;ng trời của k&yacute; ức.<\/p>\r\n\r\n<p>Nhưng tại sao lại l&agrave; người ấy? Tại sao phải để ch&uacute;ng ta gặp được người cả đời y&ecirc;u nhất v&agrave;o những năm th&aacute;ng định sẵn sẽ bỏ lỡ kia?<\/p>\r\n\r\n<p>V&agrave; rồi, một ng&agrave;y đẹp trời ngẫu nhi&ecirc;n, hai người cũ chạm mặt nhau tr&ecirc;n con đường quen m&agrave; nay xa lạ. Khẽ gật đầu mỉm cười v&igrave; một thời để nhớ.<\/p>\r\n\r\n<p>Mỗi người một c&acirc;u chuyện, một nỗi buồn nhưng chung quy lại kết th&uacute;c cuộc t&igrave;nh sẽ c&ograve;n đ&oacute; những giọt nước mắt, cả những nụ cười m&eacute;o m&oacute; kh&ocirc;ng giữ nổi bước ch&acirc;n người ấy.<\/p>\r\n\r\n<p>Th&ocirc;i th&igrave;, bu&ocirc;ng bỏ đi, h&atilde;y nhớ về người cũ với những k&yacute; ức vui vẻ, đừng tự d&agrave;y x&eacute;o ch&iacute;nh m&igrave;nh, bởi dẫu sao cũng đ&atilde; đ&ocirc;i đường đ&ocirc;i ngả.<\/p>\r\n\r\n<p>Cho d&ugrave; c&oacute; c&ograve;n nhớ nhau đi chăng nữa th&igrave; mối lương duy&ecirc;n n&agrave;o d&ugrave; đẹp đến đ&acirc;u m&agrave; hết duy&ecirc;n th&igrave; coi như hết nợ. Chỉ l&agrave; đi qua đợi nhau, nhưng dừng lại rất l&acirc;u, thương nhau rồi để đ&oacute;, rồi rời đi..<\/p>",
+        "img_post": "blog-small-2.jpg",
+        "date_post": "2019-06-24",
+        "author": "admin",
+        "view": "25",
+        "id_us": "23",
+        "id_cate": "11"
+      },
+      {
+        "id_post": "3",
+        "title_post": "Cartridge Is Better Than Ever A Discount Toner",
+        "describe": "<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself",
+        "content_post": "<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower<\/p>\r\n\r\n<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.<\/p>\r\n\r\n<blockquote>\r\n<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.<\/p>\r\n<\/blockquote>\r\n\r\n<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower<\/p>\r\n\r\n<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower<\/p>\r\n\r\n<p>&nbsp;<\/p>",
+        "img_post": "blog-small-3.jpg",
+        "date_post": "2019-06-24",
+        "author": "admin",
+        "view": "39",
+        "id_us": "23",
+        "id_cate": "8"
+      },
+      {
+        "id_post": "4",
+        "title_post": "Du lịch Phú Quý, kinh nghiệm ăn chơi hết đảo Phú Quý",
+        "describe": "<p>Đ&ocirc;i điều trước khi bạn đọc b&agrave;i du lịch Ph&uacute; Qu&yacute;: M&igrave;nh kh&aacute; may mắn đi được kha kh&aacute; đảo ở Việt Nam to&agrave;n l&agrave;",
+        "content_post": "<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/traver1.jpg\" style=\"height:725px; width:1050px\" \/><\/p>\r\n\r\n<p>Đ&ocirc;i điều trước khi bạn đọc b&agrave;i du lịch Ph&uacute; Qu&yacute;: M&igrave;nh kh&aacute; may mắn đi được kha kh&aacute; đảo ở Việt Nam to&agrave;n l&agrave; từ l&uacute;c chưa ph&aacute;t triển du lịch, d&acirc;n ở đảo đa số d&acirc;n địa phương chứ kh&ocirc;ng phải người tứ xứ tới l&agrave;m ăn, n&ecirc;n họ rất hiền. Ph&uacute; Qu&yacute; l&uacute;c m&igrave;nh đi cũng vậy, phải n&oacute;i l&acirc;u lắm rồi mới đi ra 1 h&ograve;n đảo cho m&igrave;nh c&aacute;i cảm gi&aacute;c như đang đi thời 2013. Mọi thứ rất dễ thương từ anh chị b&aacute;n nước m&iacute;a đối diện kh&aacute;ch sạn m&igrave;nh ở, cho đến nh&acirc;n vi&ecirc;n ở những qu&aacute;n ăn lớn l&acirc;u năm.<\/p>\r\n\r\n<p>Cảnh vật thi&ecirc;n nhi&ecirc;n mọi thứ vẫn c&ograve;n hoang sơ chưa bị &ldquo;l&agrave;m tiền h&oacute;a&rdquo; v&igrave; thế m&igrave;nh chỉ hy vọng sau n&agrave;y Ph&uacute; Qu&yacute; vẫn ph&aacute;t triển, nhưng ph&aacute;t triển bền vững hơn v&agrave; vẫn giữ được c&aacute;i chất đ&oacute;. V&agrave; đối với những bạn đi du lịch m&igrave;nh cũng hy vọng &yacute; thức hơn trong việc giữ g&igrave;n h&ograve;n đảo n&agrave;y kh&ocirc;ng bị &ldquo;r&aacute;c h&oacute;a&rdquo;.<\/p>\r\n\r\n<h2>ĐI DU LỊCH PH&Uacute; QU&Yacute; DỄ KH&Ocirc;NG?<\/h2>\r\n\r\n<p>Dễ si&ecirc;u dễ, kh&ocirc;ng c&oacute; g&igrave; kh&oacute; hết trơn. Nếu như c&aacute;ch đ&acirc;y khoảng 2,3 năm th&igrave; việc đi Ph&uacute; Qu&yacute; kh&aacute; kh&oacute; khăn, bạn phải ngồi tr&ecirc;n t&agrave;u đ&aacute;nh c&aacute; 5 tiếng mới ra tới đảo, c&ograve;n b&acirc;y giờ th&igrave; dễ hơn nhiều. M&igrave;nh sẽ lấy điểm xuất ph&aacute;t từ S&agrave;i G&ograve;n sau đ&oacute; c&aacute;c bạn c&oacute; thể đi xe Phương Trang chuyến tối, s&aacute;ng sớm sẽ tới Ph&uacute; Qu&yacute;.Ăn s&aacute;ng cafe tầm trưa hoặc bạn c&oacute; thể mua v&eacute; t&agrave;u ra đảo buổi s&aacute;ng cũng được.<\/p>\r\n\r\n<p>Về giớ t&agrave;u chạy th&igrave; kh&ocirc;ng cố định m&agrave; thay đổi theo ng&agrave;y, v&igrave; thế tốt nhất bạn n&ecirc;n l&ecirc;n website&nbsp;Supperdong&nbsp;để đặt v&eacute; chọn giờ cho ph&ugrave; hợp với lịch tr&igrave;nh của m&igrave;nh. T&agrave;u chạy từ cảng Phan Thiết ra Ph&uacute; Quy tầm 2 tiếng 30 ph&uacute;t nếu thời tiết đẹp biển &ecirc;m, c&ograve;n đi v&agrave;o th&aacute;ng s&oacute;ng lớn th&igrave; c&oacute; thể l&acirc;u hơn.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/trave2.jpg\" style=\"height:700px; width:1050px\" \/><\/p>\r\n\r\n<h2>ĐI DU LỊCH ĐẢO PH&Uacute; QU&Yacute; TH&Aacute;NG N&Agrave;O?<\/h2>\r\n\r\n<p>Thời gian đi du lịch Ph&uacute; Qu&yacute; tốt nhất đẹp nhất rơi v&agrave;o đầu th&aacute;ng 3 đến cuối th&aacute;ng 5 M LỊCH (Lưu &yacute; &acirc;m lịch nha c&aacute;c bạn), c&ograve;n từ th&aacute;ng 6- 9 biển bắt đầu c&oacute; gi&oacute; v&agrave; thời tiết kh&aacute; thất thường. Nếu như đi dịp n&agrave;y bạn n&ecirc;n check kỹ thời tiết nh&eacute;, v&agrave; x&aacute;c định đi gặp gi&oacute; lớn ngồi tr&ecirc;n t&agrave;u từ Phan Thiết ra Ph&uacute; Qu&yacute; l&agrave; say mệt nghỉ lu&ocirc;n, m&igrave;nh nghe n&oacute;i s&oacute;ng rất lớn, nhiều khi s&oacute;ng đ&aacute;nh tới cả cửa sổ của t&agrave;u lu&ocirc;n.<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/trave4jpg.jpg\" style=\"height:700px; width:1050px\" \/><\/p>\r\n\r\n<p><img alt=\"\" src=\"\/uploads\/images\/imgblog\/trave3.jpg\" style=\"height:700px; width:1050px\" \/><\/p>",
+        "img_post": "blog-small-4.jpg",
+        "date_post": "2019-06-25",
+        "author": "admin",
+        "view": "6",
+        "id_us": "23",
+        "id_cate": "5"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "users",
+    "database": "myblog",
+    "data": [{
+        "id_us": "19",
+        "user_name": "dangky",
+        "password": "$2y$10$WJRo7kGN71gDeaFOXhoiTu\/7mKkcN..pEQUCfiTiuU3OktFtIwQ2K",
+        "your_name": "Nhat",
+        "email": "nhatnnps07643@fpt.edu.vn",
+        "number": "966643251",
+        "role": "1",
+        "avatar_us": null,
+        "remember_token": null
+      },
+      {
+        "id_us": "20",
+        "user_name": "chiennguyen1234",
+        "password": "$2y$10$rQqlCkJM2.6msgWCQRLWMu6zAlQlWzDopAIbXKjJIOdCyCdfjoQhy",
+        "your_name": "chien",
+        "email": "chien@123.com",
+        "number": "12345678",
+        "role": "1",
+        "avatar_us": null,
+        "remember_token": "hN7ZmgeNsknw7AIxGXd0GKBq4fUew0fi12HZgcyzWCFJiuu1cs7gQ3opGeAd"
+      },
+      {
+        "id_us": "23",
+        "user_name": "admin",
+        "password": "$2y$10$gtWn9FNi6jjwepIf9C9G5es7DL5nusgtgwidQhdCfMU57i\/doGEFq",
+        "your_name": "ADMIN Đẹp trai",
+        "email": "admin@gmail.com",
+        "number": "374490097",
+        "role": "1",
+        "avatar_us": null,
+        "remember_token": "ZdiZLKuj8KMhiAkbFrDh8o8tKPRD7CAgzn60YMHttjM92hDqzO8A0ZHqEstp"
+      },
+      {
+        "id_us": "24",
+        "user_name": "kid_ti",
+        "password": "$2y$10$emISrPdSFqTG\/MZ15ahwhOBsd0A.yJBkD53eNMOYpFT0HozQuB726",
+        "your_name": "Chiến Nguyễn",
+        "email": "maihoa11111@gmail.com",
+        "number": "123433",
+        "role": "0",
+        "avatar_us": null,
+        "remember_token": null
+      }
+    ]
+  }
+]
