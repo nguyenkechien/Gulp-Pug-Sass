@@ -75,6 +75,7 @@ function images() {
     )
 }
 
+
 function pugtask() {
     return (
         gulp.src(path.pug.src)
