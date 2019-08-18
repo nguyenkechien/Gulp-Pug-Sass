@@ -102,5 +102,5 @@ exports.watch = watch;
 
 // default
 
-var build = gulp.series(gulp.parallel(watch, 'bootStrap', 'browserSync'));
+var build = gulp.series(gulp.parallel(watch, images, pug, js, styles, 'bootStrap', 'browserSync'));
 gulp.task('default', build);
