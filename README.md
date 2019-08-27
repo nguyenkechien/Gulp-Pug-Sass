@@ -12,5 +12,5 @@
   - npm build
 
 # ###------HOW TO USE
-  * You can wire code in folder src/---
+  * You can write code in folder src/---
   * Products folder is public
