@@ -5,12 +5,12 @@
   - npm install
 
 # ###------HOW TO RUN 
-  * you can run width 
+  * You can run with 
   - npm start 
   ------------------
-  * you can build width 
+  * You can build with 
   - npm build
 
 # ###------HOW TO USE
   * You can wire code in folder src/---
-  * Folder products is public
+  * Products folder is public
