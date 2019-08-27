@@ -22,6 +22,12 @@ body {
 	}
 }
 
+#bike-trip{
+	text-align: center;
+	overflow-y: hidden;
+	min-height: 100vh;
+	max-height: 100vh;
+}
 .hide-md {
 	display: none !important;
 }
