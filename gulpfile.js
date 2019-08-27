@@ -3,29 +3,42 @@ var gulp = require('gulp'),
     cssnano = require('cssnano'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-    pug = require('gulp-pug'),
+    minify = require("gulp-babel-minify"),
+    sourcemaps = require('gulp-sourcemaps'),
+    babel = require('gulp-babel'),
+    concat = require('gulp-concat'),
+    del = require('del'),
+    imagemin = require('gulp-imagemin'),
     browserSync = require('browser-sync').create();
 
 
 // src
 var path = {
     styles: {
-        src: './src/sass/**/*.sass',
-        dest: './public/css'
+        src: './src/scss/**/*.scss',
+        dest: './src/css',
+        build: './public/css'
+
     },
     js: {
-        src: './src/js/*.js',
+        src: ['./src/js/*.js', './src/js/_core/*.js'],
         dest: './public/js'
     },
-    pug: {
-        src: ["./src/templates/**/*.pug",
-            "!./src/templates/{**/\_*,**/\_*/**}.pug"
-        ],
-        dest: './public'
+    images: {
+        src: './src/images/**/*.+(png|jpg|jpeg|gif|svg)',
+        dest: './public/images'
     },
-    images : {
-        src : './src/images/**/*',
-        dest : './public/images'
+    library: {
+        src: './src/library/**/*',
+        dest: './public/library'
+    },
+    fonts: {
+        src: './src/scss/fonts/*',
+        dest: './public/fonts'
+    },
+    html: {
+        src: './src/*.html',
+        dest: './public'
     }
 }
 
@@ -33,8 +46,10 @@ var path = {
 gulp.task('browserSync', function () {
     browserSync.init({
         server: {
-            baseDir: "./public"
-        }
+            baseDir: "./public/"
+        },
+        https: true,
+        // httpModule: 'http2'
     });
 });
 
@@ -58,12 +73,25 @@ function styles() {
         .on('error', sass.logError)
         .pipe(postcss(plugins))
         .pipe(gulp.dest(path.styles.dest))
+        .pipe(gulp.dest(path.styles.build))
+
     )
 }
 
 function js() {
     return (
         gulp.src(path.js.src)
+        .pipe(sourcemaps.init())
+        .pipe(concat('main.js'))
+        .pipe(babel({
+            plugins: ['@babel/transform-runtime']
+        }))
+        .pipe(minify({
+            mangle: {
+                keepClassName: true
+            }
+        }))
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.js.dest))
     )
 }
@@ -75,32 +103,72 @@ function images() {
     )
 }
 
-
-function pugtask() {
+function imagesBuild() {
     return (
-        gulp.src(path.pug.src)
-        .pipe(pug({
-            pretty: true
+        gulp.src(path.images.src)
+        .pipe(imagemin({
+            interlaced: true
         }))
-        .pipe(gulp.dest(path.pug.dest))
+        .pipe(gulp.dest(path.images.dest))
+        .pipe(browserSync.stream())
     )
 }
 
+function library() {
+    return (
+        gulp.src(path.library.src)
+        .pipe(gulp.dest(path.library.dest))
+    )
+}
+
+
+function fonts() {
+    return (
+        gulp.src(path.fonts.src)
+        .pipe(gulp.dest(path.fonts.dest))
+    )
+}
+
+function html() {
+    return (
+        gulp.src(path.html.src)
+        .pipe(gulp.dest(path.html.dest))
+    )
+}
+
+function Clean() {
+    return del([
+        './public/**/**'
+    ])
+}
+
 function watch() {
+    gulp.watch(path.html.src, html);
     gulp.watch(path.styles.src, styles);
     gulp.watch(path.js.src, js);
     gulp.watch(path.images.src, images);
-    gulp.watch(path.pug.src, pugtask);
+    gulp.watch(path.library.src, library);
+    gulp.watch(path.fonts.src, fonts);
     gulp.watch("./public/**/*.*").on('change', browserSync.reload);
 }
 
 exports.styles = styles;
 exports.js = js;
 exports.images = images;
-exports.pug = pug;
+exports.library = library;
+exports.fonts = fonts;
+exports.html = html;
+exports.imagesBuild = imagesBuild;
+exports.Clean = Clean;
 exports.watch = watch;
+
 
 // default
 
-var build = gulp.series(gulp.parallel(watch, images, pug, js, styles, 'bootStrap', 'browserSync'));
-gulp.task('default', build);
+var runWatch = gulp.series(gulp.parallel(watch, images, library, fonts, html, 'bootStrap', 'browserSync'));
+gulp.task('default', runWatch);
+
+var runBuild = gulp.series(Clean, gulp.parallel(styles, js, imagesBuild, library, fonts, html, 'bootStrap', 'browserSync'));
+gulp.task('build', runBuild, function () {
+    console.log("Build done!!!!!")
+})

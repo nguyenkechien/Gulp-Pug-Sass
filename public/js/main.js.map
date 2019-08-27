@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js","hero.js"],"names":["console"],"mappings":"aAAA,GAAA,CAAA,GAAA,CAAA,OAAA,CACAA,OAAAA,CAAAA,GAAAA,S,CCDAA,OAAAA,CAAAA,GAAAA,CAAAA,KAAAA,C","file":"main.js","sourcesContent":["let val = \"hello\";  // val is \"Hello\";\r\nconsole.log(val)","console.log('132')"]}
